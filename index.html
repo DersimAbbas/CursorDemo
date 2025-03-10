@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Habibi - Middle Eastern Delights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Cafe Habibi</h1>
+                <p>Middle Eastern Delights</p>
+            </div>
+            <nav>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to Cafe Habibi</h1>
+                <p>Experience authentic Middle Eastern flavors in every bite</p>
+                <a href="#menu" class="btn-primary">Explore Our Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Story</h2>
+                <div class="decoration"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1517231925375-bf2cb42917a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cafe interior with Middle Eastern decor">
+                </div>
+                <div class="about-text">
+                    <p>At Cafe Habibi, we bring you the authentic flavors of the Middle East. Our recipes have been passed down through generations, each dish prepared with love and the finest ingredients.</p>
+                    <p>Step into our cafe and be transported to the vibrant streets of Damascus, Cairo, and Beirut. The aromatic spices, sweet pastries, and rich coffees will take you on a culinary journey through the Middle East.</p>
+                    <p>Whether you're craving a sweet treat with your afternoon tea or looking for a cozy spot to connect with friends, Cafe Habibi offers a warm, welcoming atmosphere with the tastes of home.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Menu</h2>
+                <div class="decoration"></div>
+            </div>
+            
+            <div class="menu-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-target="desserts">Sweet Treats</button>
+                    <button class="tab-btn" data-target="coffees">Coffees</button>
+                    <button class="tab-btn" data-target="teas">Teas & Beverages</button>
+                    <button class="tab-btn" data-target="specials">Cafe Specials</button>
+                </div>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="desserts">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Baklava">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Baklava</h3>
+                                    <p>Layers of flaky pastry filled with chopped nuts and sweetened with honey syrup</p>
+                                    <span class="price">$5.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1555104538-651ccaafbff8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Kunafa">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Kunafa</h3>
+                                    <p>Sweet cheese pastry soaked in sugar syrup with a crunchy topping</p>
+                                    <span class="price">$6.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1583083317538-b23547917022?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Ma'amoul">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Ma'amoul</h3>
+                                    <p>Shortbread cookies filled with dates, pistachios, or walnuts</p>
+                                    <span class="price">$4.50</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1593100998297-2e4457298d13?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Basbousa">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Basbousa</h3>
+                                    <p>Sweet semolina cake soaked in rose-scented syrup</p>
+                                    <span class="price">$5.50</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="coffees">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1534687941688-651ccaafbff8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Turkish Coffee">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Turkish Coffee</h3>
+                                    <p>Strong coffee brewed in a copper pot, served in small cups</p>
+                                    <span class="price">$3.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1572286258696-9de2b0759fda?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Arabic Coffee">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Arabic Coffee (Qahwa)</h3>
+                                    <p>Lightly roasted coffee with cardamom, traditionally served in small cups</p>
+                                    <span class="price">$4.50</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Café Blanc">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Café Blanc</h3>
+                                    <p>Orange blossom infusion, a Lebanese specialty</p>
+                                    <span class="price">$3.75</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1621221814595-d3d9b3e8b3bb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Espresso">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Espresso</h3>
+                                    <p>A shot of pure coffee intensity</p>
+                                    <span class="price">$2.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="teas">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Mint Tea">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Moroccan Mint Tea</h3>
+                                    <p>Fresh mint leaves steeped with green tea and sugar</p>
+                                    <span class="price">$4.25</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Karkade">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Karkade (Hibiscus Tea)</h3>
+                                    <p>Vibrant red tea made from hibiscus flowers, served hot or cold</p>
+                                    <span class="price">$3.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1563911892437-1feda0179e1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sahlab">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Sahlab</h3>
+                                    <p>Warm milk drink thickened with orchid root powder, topped with cinnamon and nuts</p>
+                                    <span class="price">$5.25</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1566657040343-53a93e900fb9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Rosewater Lemonade">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Rosewater Lemonade</h3>
+                                    <p>Fresh lemonade infused with delicate rosewater</p>
+                                    <span class="price">$4.50</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane" id="specials">
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1559847844-d547026523dd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Mezze Platter">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Mezze Platter</h3>
+                                    <p>Selection of hummus, baba ghanoush, muhammara, and warm pita bread</p>
+                                    <span class="price">$12.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1541518763669-27fef9b07b95?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Labneh with Zaatar">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Labneh with Zaatar</h3>
+                                    <p>Strained yogurt topped with olive oil and zaatar spice blend</p>
+                                    <span class="price">$6.50</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Manakish">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Manakish</h3>
+                                    <p>Flatbread topped with zaatar and olive oil or cheese</p>
+                                    <span class="price">$7.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="menu-item-image">
+                                    <img src="https://images.unsplash.com/photo-1514326005837-fb4791d25e03?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Falafel Wrap">
+                                </div>
+                                <div class="menu-item-info">
+                                    <h3>Falafel Wrap</h3>
+                                    <p>Crispy falafel with tahini sauce, vegetables, and pickles wrapped in lavash bread</p>
+                                    <span class="price">$8.50</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Ambiance</h2>
+                <div class="decoration"></div>
+            </div>
+            <div class="gallery-images">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Middle Eastern cafe interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1493606278519-11aa9f86e40a?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Coffee preparation">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1601050690117-94f5f7a15a97?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Traditional desserts">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Cozy seating area">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Visit Us</h2>
+                <div class="decoration"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Spice Market Street<br>Middle Eastern District</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p><strong>Hours:</strong><br>
+                           Mon-Fri: 8am - 9pm<br>
+                           Sat-Sun: 9am - 10pm</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@cafehabibi.com</p>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Cafe Habibi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

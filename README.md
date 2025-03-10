@@ -1,4 +1,4 @@
-# Cafe Habibi - Middle Eastern Cafe Website
+# Cafe Habibi - Middle Eastern Cafe Website made with CURSOR AI 100% 
 
 A beautiful responsive website for Cafe Habibi, a fictional Middle Eastern cafe specializing in authentic treats and beverages.
 
